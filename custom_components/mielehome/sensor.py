@@ -14,7 +14,7 @@ class MieleSensor(Entity):
         self.__ident = {}
         self.__state = {}
         self.update_ident()
-        self.update()
+        await self._hass.async_add_executor_job(self.update())
 
     @property
     def device_id(self):
