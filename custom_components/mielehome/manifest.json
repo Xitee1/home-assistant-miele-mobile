@@ -1,0 +1,17 @@
+{
+  "domain": "mielehome",
+  "name": "Miele@Home local",
+  "version": "0.0.1",
+  "codeowners": [
+	"@thuxnder",
+	"@Xitee"
+  ],
+  "documentation": "https://github.com/Xitee1/home-assistant-miele-mobile/",
+  "iot_class": "local_polling",
+  "requirements": [],
+  "dependencies": [
+    "requests",
+    "datetime",
+	"cryptography"
+  ],
+}
