@@ -8,10 +8,10 @@
   ],
   "documentation": "https://github.com/Xitee1/home-assistant-miele-mobile/",
   "iot_class": "local_polling",
-  "requirements": [],
-  "dependencies": [
+  "requirements": [
     "requests",
     "datetime",
 	"cryptography"
-  ]
+  ],
+  "dependencies": []
 }
