@@ -49,6 +49,6 @@ class MieleSensor(Entity):
     def update_ident(self):
         self.__ident = self._device.getIdent().toDict()
 
-    def update(self):
+    async def update(self):
         self.__state = self._device.getState().toDict()
         
